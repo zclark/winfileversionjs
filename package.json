@@ -1,0 +1,30 @@
+{
+  "name": "winFileVersion",
+  "version": "0.0.1",
+  "description": "Node module for reading windows file version information",
+  "keywords": [
+    "windows",
+    "file",
+    "version",
+    "dll"
+  ],
+  "author": {
+    "name": "Zach Clark",
+    "email": "zachmclark@gmail.com",
+    "twitter": "@zmclark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zclark/winfileversionjs.git"
+  },
+  "scripts": {
+    "install": "node-gyp clean configure build"
+  },
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "ia32",
+    "x64"
+  ]
+}
