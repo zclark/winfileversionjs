@@ -1,5 +1,5 @@
 {
-  "name": "winFileVersion",
+  "name": "winfileversion",
   "version": "0.0.1",
   "description": "Node module for reading windows file version information",
   "keywords": [
